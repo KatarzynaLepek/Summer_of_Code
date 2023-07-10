@@ -1,0 +1,78 @@
+body {
+    font-family: 'Copperplate Gothic Light', Arial;
+    font-size: 25px;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+.naglowek {
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.menu ul {
+    padding: 0;
+    margin: 10;
+    list-style: none;
+}
+.menu li {
+    display: inline;
+    padding: 25px;
+}
+.menu li:hover {
+    background-color: dimgray;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.glowne_foto img {
+    border: 2px solid darkgreen;
+    padding: 10px;
+    margin: 0px;
+}
+
+.linki {
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    font-weight: 1000;
+}
+.linki ul {
+    list-style: none;
+}
+.linki li {
+    display: inline;
+    padding: 70px;
+}
+
+footer {
+    font-size: 15px;
+    background-color: darkgreen;
+    color:black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+}
+footer a {
+    color: black;
+    font-style: none;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+}
+
